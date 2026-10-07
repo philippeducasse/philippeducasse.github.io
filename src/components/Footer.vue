@@ -2,7 +2,7 @@
   <footer class="page-footer">
     <div class="social-media">
       <template v-if="isMinimalist">
-        <a href="mailto:info@philippeducasse.com" class="minimal-link" aria-label="Email">email</a>
+        <a href="mailto:philippe@ducasse.io" class="minimal-link" aria-label="Email">email</a>
         <a
           href="https://github.com/philippeducasse"
           target="_blank"
@@ -19,7 +19,7 @@
         >
       </template>
       <template v-else>
-        <a href="mailto:info@philippeducasse.com" aria-label="Email">
+        <a href="mailto:philippe@ducasse.io" aria-label="Email">
           <img src="/img/logos/email.svg" alt="Email logo" />
         </a>
         <a href="https://github.com/philippeducasse" target="_blank" rel="noopener noreferrer">

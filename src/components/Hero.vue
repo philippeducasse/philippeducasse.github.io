@@ -31,7 +31,7 @@
           computers and the internet work. And hulahoop.
         </p>
         <p class="hidden bottom">
-          You can contact me at info@philippeducasse.com, or on
+          You can contact me at philippe@ducasse.io, or on
           <a href="https://linkedin.com/in/philippe-ducasse" target="_blank">LinkedIn</a>.
         </p>
       </div>

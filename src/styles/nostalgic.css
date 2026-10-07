@@ -256,6 +256,23 @@ html[data-theme="nostalgic"] .tech-tags {
   padding: 0.5rem 0.6rem;
 }
 
+html[data-theme="nostalgic"] .cv-link {
+  background-color: #c0c0c0;
+  border: 3px outset #fff;
+  border-radius: 0;
+  box-shadow: 2px 2px 0 #000;
+  color: #000;
+  font-family: "Comic Neue", "Comic Sans MS", cursive;
+  text-decoration: none;
+}
+
+html[data-theme="nostalgic"] .cv-link:hover {
+  background-color: #c0c0c0;
+  border-style: inset;
+  box-shadow: none;
+  color: #000;
+}
+
 html[data-theme="nostalgic"] .tech-tag {
   background-color: #c0c0c0;
   color: #000;

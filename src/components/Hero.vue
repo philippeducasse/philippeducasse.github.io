@@ -27,7 +27,7 @@
           <a href="https://vdpresearch.de/" target="_blank">vdpResearch</a>.
         </p>
         <p class="hidden left">
-          During my free time i like to code circus related things. I also love learning how
+          During my free time I like to code circus related things. I also love learning how
           computers and the internet work. And hulahoop.
         </p>
         <p class="hidden bottom">

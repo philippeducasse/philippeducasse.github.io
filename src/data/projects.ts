@@ -22,10 +22,7 @@ export const projects: Project[] = [
       "Clapp helps freelance performance manage and enhance their careers by streamlining the application process.",
     image: "/img/clapp.png",
     link: "https://clapp.ovh/api/profiles/demo-login",
-    githubLinks: [
-        "https://github.com/philippeducasse/clapp_frontend",
-        "https://github.com/philippeducasse/clapp_backend",
-    ],
+    githubLinks: ["https://github.com/philippeducasse/clapp"],
     tools: [
       { name: "Next.js", image: "/img/logos/next.svg" },
       { name: "Django", image: "/img/logos/django.svg" },
@@ -35,11 +32,12 @@ export const projects: Project[] = [
   {
     name: "Zirkusmond",
     shortDescription:
-      "I'm the core maintainer of the Zirkusmond website, a thriving circus located in the heart of berlin.",
+      "I'm the core maintainer of the Zirkusmond website, a thriving circus located in the heart of Berlin.",
     description:
       "Zirkusmond is one of Berlin's top underground performance venues. Handles about 20.000 ticket sales a year.",
     image: "/img/zm.png",
     link: "https://zirkusmond.de",
+    githubLinks: ["https://github.com/zirkusmond/zirkusmond"],
     tools: [
       { name: "Vue", image: "/img/logos/vue.svg" },
       { name: "Django", image: "/img/logos/django.svg" },

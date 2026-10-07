@@ -29,6 +29,9 @@
         </div>
       </div>
     </div>
+    <div class="cv-download hidden">
+      <a href="/files/CV_DUCASSE.pdf" download="CV_DUCASSE.pdf" class="cv-link">Download my CV</a>
+    </div>
   </section>
 </template>
 
@@ -159,6 +162,27 @@ import { getAnimationDirection } from "../utils/useAnimations";
   margin-bottom: 0.5rem;
 }
 
+.cv-download {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.cv-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.25rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.cv-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
 .tech-tags {
   display: flex;
   flex-wrap: wrap;
@@ -221,6 +245,19 @@ import { getAnimationDirection } from "../utils/useAnimations";
 
 :global(html[data-theme="minimalist"] .accomplishments li::before) {
   color: #333;
+}
+
+:global(html[data-theme="minimalist"] .cv-link) {
+  border: none;
+  padding: 0;
+  color: inherit;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+:global(html[data-theme="minimalist"] .cv-link:hover) {
+  background-color: transparent;
+  color: inherit;
 }
 
 :global(html[data-theme="minimalist"] .tech-tag) {

@@ -2,14 +2,14 @@
   <footer class="page-footer">
     <div class="social-media">
       <template v-if="isMinimalist">
-        <a href="mailto:info@philippeducasse.com" class="minimal-link" aria-label="Email">email </a>
+        <a href="mailto:info@philippeducasse.com" class="minimal-link" aria-label="Email">email</a>
         <a
           href="https://github.com/philippeducasse"
           target="_blank"
           rel="noopener noreferrer"
           class="minimal-link"
-          >github
-        </a>
+          >github</a
+        >
         <a
           href="https://linkedin.com/in/philippe-ducasse-817494294"
           target="_blank"

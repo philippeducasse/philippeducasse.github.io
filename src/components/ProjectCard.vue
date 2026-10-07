@@ -40,7 +40,11 @@
         class="tools__logo"
       />
     </div>
-    <p v-if="project.githubLinks" class="github-links">
+    <p v-if="project.githubLinks?.length === 1" class="github-links">
+      check out the
+      <a :href="project.githubLinks[0]" target="_blank" rel="noopener noreferrer">github repo</a>
+    </p>
+    <p v-else-if="project.githubLinks?.length" class="github-links">
       check out the code on github for the
       <a :href="project.githubLinks[0]" target="_blank" rel="noopener noreferrer">frontend</a>
       and
